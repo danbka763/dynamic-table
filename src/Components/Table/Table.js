@@ -7,11 +7,6 @@ import DTbodyRender from "../../ui-kit/DTbodyRender";
 const Table = () => {
   const data = JSON.parse(data_table);
 
-  // Стейт сортировки
-  // [
-  //   индекс колонны,
-  //   направление (true -> по возрастанию, false -> по убыванию)
-  // ]
   const [sort, editSort] = useState([0, true]);
   const [text, editText] = useState("");
 
