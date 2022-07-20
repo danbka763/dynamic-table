@@ -23,7 +23,7 @@ const DTbodyRender = (props) => {
     if (!ok) {
       ok = coincidence(
         line,
-        search.replace(/[^a-zа-яё0-9\s]/gi, "").split(" ")
+        search.replace(/[^a-zа-яё0-9\s]/gi, " ").split(" ")
       );
     }
     return (
